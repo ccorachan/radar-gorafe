@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Radar Musical Gorafe</title>
+<style>
+  body {
+    background:#0d0d0d;
+    color:#e6e6e6;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    margin:0;
+    padding:24px 16px 60px;
+    line-height:1.5;
+  }
+  .wrap { max-width: 980px; margin: 0 auto; }
+  h1 {
+    color:#f5c842;
+    font-size: 1.9em;
+    margin-bottom:4px;
+    text-align:center;
+  }
+  .subtitle {
+    text-align:center;
+    color:#c9c9c9;
+    font-size:0.95em;
+    margin-bottom: 4px;
+  }
+  .window {
+    text-align:center;
+    color:#f5c842;
+    font-weight:600;
+    margin-bottom:18px;
+  }
+  .aviso {
+    background:#1a1a12;
+    border:1px solid #3a3320;
+    border-left:4px solid #f5c842;
+    padding:12px 16px;
+    border-radius:6px;
+    font-size:0.9em;
+    color:#d8d0b0;
+    margin-bottom: 22px;
+  }
+  .leyenda {
+    display:flex;
+    flex-wrap:wrap;
+    gap:14px;
+    justify-content:center;
+    margin-bottom: 18px;
+    font-size:0.85em;
+  }
+  .leyenda span {
+    display:inline-flex;
+    align-items:center;
+    gap:6px;
+    padding:4px 10px;
+    border-radius:4px;
+    border:1px solid #333;
+  }
+  .swatch { width:12px; height:12px; border-radius:2px; display:inline-block; }
+  table {
+    width:100%;
+    border-collapse: collapse;
+    margin-bottom: 30px;
+    font-size:0.92em;
+  }
+  th, td {
+    padding:10px 8px;
+    text-align:left;
+    border-bottom:1px solid #262626;
+    vertical-align:top;
+  }
+  th {
+    color:#f5c842;
+    font-size:0.85em;
+    text-transform:uppercase;
+    letter-spacing:0.03em;
+    border-bottom:2px solid #f5c842;
+  }
+  tr.free { background:#09180a; }
+  tr.mid { background:#141414; }
+  tr.high { background:#160808; }
+  tr.fuera { opacity:0.75; }
+  td a { color:#f5c842; text-decoration:none; }
+  td a:hover { text-decoration:underline; }
+  .badge-fuera {
+    display:inline-block;
+    font-size:0.75em;
+    color:#999;
+    border:1px solid #444;
+    border-radius:3px;
+    padding:1px 5px;
+    margin-left:6px;
+  }
+  h2 {
+    color:#f5c842;
+    font-size:1.25em;
+    border-bottom:1px solid #333;
+    padding-bottom:6px;
+    margin-top:36px;
+  }
+  .joya {
+    background:#141414;
+    border:1px solid #2a2a2a;
+    border-left:4px solid #f5c842;
+    border-radius:6px;
+    padding:12px 16px;
+    margin-bottom:12px;
+  }
+  .joya b { color:#f5c842; }
+  ul.plain { padding-left: 18px; }
+  ul.plain li { margin-bottom:6px; }
+  footer {
+    margin-top: 40px;
+    padding-top: 16px;
+    border-top:1px solid #262626;
+    font-size:0.8em;
+    color:#888;
+    text-align:center;
+  }
+  footer a { color:#f5c842; }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <h1>🎵 Radar Musical Gorafe</h1>
+  <div class="subtitle">Eventos musicales a 50&nbsp;km por carretera (en coche) de Gorafe, Granada</div>
+  <div class="window">📅 16 – 26 de julio de 2026 (próximos 10 días)</div>
+
+  <div class="aviso">
+    ⚠️ <b>Aviso sobre el catchment:</b> Gorafe es un pueblo de unos 250 habitantes en pleno Geoparque de Granada. Un radio de 50&nbsp;km por carretera desde aquí cubre la Comarca de Guadix, parte de la Comarca de Baza y parte de Montes Orientales — un catchment mucho más pequeño que el de una gran ciudad. No esperes decenas de conciertos: esta semana se han encontrado <b>7 eventos musicales confirmados dentro del radio</b>, más 2 referencias en Granada capital (fuera de radio, pero vigilada por concentrar las grandes taquillas). Si un día no aparece nada, es porque no se ha encontrado nada nuevo, no por omisión.
+  </div>
+
+  <div class="leyenda">
+    <span><i class="swatch" style="background:#09180a;border:1px solid #1a3d1c;"></i> Gratis</span>
+    <span><i class="swatch" style="background:#141414;border:1px solid #333;"></i> Hasta 50€ / ver enlace</span>
+    <span><i class="swatch" style="background:#160808;border:1px solid #3d1a1a;"></i> Más de 50€</span>
+  </div>
+
+  <table>
+    <thead>
+      <tr>
+        <th>⭐</th>
+        <th>Fecha</th>
+        <th>Hora</th>
+        <th>Artista / Evento</th>
+        <th>Recinto · Municipio (distancia)</th>
+        <th>Precio</th>
+        <th>Género</th>
+        <th>🔗</th>
+      </tr>
+    </thead>
+    <tbody>
+
+      <tr class="mid">
+        <td>⭐⭐⭐</td>
+        <td>16 jul (jue)</td>
+        <td>22:00h</td>
+        <td>Zenet</td>
+        <td>Carmen de los Mártires, Granada capital <span class="badge-fuera">~68 km, fuera de radio</span></td>
+        <td>Ver enlace</td>
+        <td>Cantautor / Copla</td>
+        <td><a href="https://www.ticketmaster.es/discover/granada" target="_blank">Ver</a></td>
+      </tr>
+      <tr class="free">
+        <td>⭐⭐</td>
+        <td>16 jul (jue)</td>
+        <td>22:00h / 23:00h</td>
+        <td>Orquesta Atrevida + Concierto de Nino Vargas</td>
+        <td>Plaza de la Constitución, Benalúa (~35 km)</td>
+        <td>Gratis</td>
+        <td>Pop / Verbena</td>
+        <td><a href="https://elaccitano.com/15-al-19-de-julio-fiestas-en-honor-a-la-virgen-del-carmen-en-benalua/" target="_blank">Ver</a></td>
+      </tr>
+
+      <tr class="mid">
+        <td>⭐⭐⭐</td>
+        <td>17 jul (vie)</td>
+        <td>Ver enlace</td>
+        <td>Concierto de clausura Guadix Clásica: Marina Heredia (cante) &amp; José Luis Morillas (guitarra) con la Orquesta Filarmonía Granada, dir. Ricardo J. Espigares Carrillo — obras de Falla y Rodrigo</td>
+        <td>Teatro Mira de Amescua, Guadix (~30 km)</td>
+        <td>Ver enlace (ligado al Sorteo de Oro de Cruz Roja)</td>
+        <td>Flamenco / Clásica</td>
+        <td><a href="https://www.todalamusica.es/guadix-clasica-presenta-su-xxxiv-edicion-con-ocho-conciertos-del-12-de-junio-al-17-de-julio/" target="_blank">Ver</a></td>
+      </tr>
+      <tr class="mid">
+        <td>⭐⭐⭐</td>
+        <td>17 jul (vie)</td>
+        <td>22:00h</td>
+        <td>Revólver</td>
+        <td>Palacio de los Córdova, Granada capital <span class="badge-fuera">~68 km, fuera de radio</span></td>
+        <td>Ver enlace</td>
+        <td>Rock clásico</td>
+        <td><a href="https://www.conciertosengranada.es/conciertos/115271-revolver" target="_blank">Ver</a></td>
+      </tr>
+      <tr class="free">
+        <td>⭐⭐</td>
+        <td>17 jul (vie)</td>
+        <td>23:00h</td>
+        <td>Concierto de María Isabel + La Gran Orquesta</td>
+        <td>Plaza de la Constitución, Benalúa (~35 km)</td>
+        <td>Gratis</td>
+        <td>Pop</td>
+        <td><a href="https://elaccitano.com/15-al-19-de-julio-fiestas-en-honor-a-la-virgen-del-carmen-en-benalua/" target="_blank">Ver</a></td>
+      </tr>
+      <tr class="free">
+        <td>⭐⭐</td>
+        <td>17-18 jul (vie noche)</td>
+        <td>00:00h / 02:00h</td>
+        <td>«El Biri, el legado de la rumba» + Felipe Rubio</td>
+        <td>Recinto ferial, Sillar Baja · Diezma (~50 km)</td>
+        <td>Gratis</td>
+        <td>Flamenco-rumba</td>
+        <td><a href="https://elaccitano.com/fiestas-de-sillar-baja-diezma/" target="_blank">Ver</a></td>
+      </tr>
+
+      <tr class="mid">
+        <td>⭐⭐⭐</td>
+        <td>18 jul (sáb)</td>
+        <td>Ver enlace</td>
+        <td>Sinfonía nº9 de Beethoven — Orquesta y Coro Ciudad de Granada, dir. Donato Renzetti (75º aniversario Festival de Granada)</td>
+        <td>Plaza del Ayuntamiento (Castillo de La Calahorra) (~48 km)</td>
+        <td>Ver enlace (muy pocas entradas)</td>
+        <td>Clásica coral, gran formato</td>
+        <td><a href="https://granadafestival.org/es/evento/orquesta-ciudad-de-granada--la-calahorra-2026-3" target="_blank">Ver</a></td>
+      </tr>
+      <tr class="free">
+        <td>⭐⭐</td>
+        <td>18 jul (sáb)</td>
+        <td>23:00h</td>
+        <td>M80 Live (tributo «Lo Mejor del Indie») + Recuerdos Locos</td>
+        <td>Plaza de la Constitución, Benalúa (~35 km)</td>
+        <td>Gratis</td>
+        <td>Tributos / Indie</td>
+        <td><a href="https://elaccitano.com/15-al-19-de-julio-fiestas-en-honor-a-la-virgen-del-carmen-en-benalua/" target="_blank">Ver</a></td>
+      </tr>
+      <tr class="free">
+        <td>⭐</td>
+        <td>18-19 jul (sáb noche)</td>
+        <td>00:00h / 02:00h</td>
+        <td>Chandé + cuarteto Moreno Show</td>
+        <td>Recinto ferial, Sillar Baja · Diezma (~50 km)</td>
+        <td>Gratis</td>
+        <td>Verbena</td>
+        <td><a href="https://elaccitano.com/fiestas-de-sillar-baja-diezma/" target="_blank">Ver</a></td>
+      </tr>
+
+      <tr class="free">
+        <td>⭐⭐⭐</td>
+        <td>24 jul (vie)</td>
+        <td>22:00h</td>
+        <td>Rodríguez Celtic Band (Semana de la Dama de Baza)</td>
+        <td>Parque de la Alameda, Baza (~46 km)</td>
+        <td>Gratis</td>
+        <td>Folk / Celtic</td>
+        <td><a href="https://ayuntamientodebaza.es/2026/07/15/29938/" target="_blank">Ver</a></td>
+      </tr>
+
+    </tbody>
+  </table>
+
+  <h2>💎 Joyas de la semana</h2>
+
+  <div class="joya">
+    <b>Marina Heredia &amp; Orquesta Filarmonía Granada</b> — 17 de julio, Teatro Mira de Amescua, <b>Guadix (~30 km, la más cercana)</b>. Clausura de Guadix Clásica con dos referentes: la cantaora accitana Marina Heredia y la Filarmonía de Granada, en un programa dedicado a Falla y Rodrigo.
+  </div>
+  <div class="joya">
+    <b>Sinfonía nº9 de Beethoven — Orquesta y Coro Ciudad de Granada</b> — 18 de julio, Castillo de La Calahorra (~48 km). Concierto extraordinario del 75º aniversario del Festival Internacional de Música y Danza de Granada, con el castillo como escenario. Quedan muy pocas entradas.
+  </div>
+  <div class="joya">
+    <b>Rodríguez Celtic Band</b> — 24 de julio, Parque de la Alameda, Baza (~46 km). Concierto gratuito dentro de la Semana de la Dama de Baza, folk/celta al aire libre.
+  </div>
+
+  <h2>📱 Instagram revisado</h2>
+  <ul class="plain">
+    <li><b>@ayuntamientodeguadix</b> — revisado vía búsqueda; sin publicaciones específicas de conciertos nuevos para esta ventana más allá de lo ya recogido en la agenda de elaccitano.com.</li>
+    <li><b>@bandasinfonicaguadix</b> — no se ha localizado una cuenta activa indexada con este nombre. Sin actividad indexada.</li>
+    <li><b>@lamarquesaguadix</b> — no se ha localizado una cuenta activa indexada con este nombre. Sin actividad indexada.</li>
+    <li><b>@ayuntamientodepurullena</b> — revisado; la Feria y Fiestas de Purullena 2026 está prevista para la tercera semana de agosto, fuera de esta ventana de 10 días. Sin novedades musicales para el 16-26 de julio.</li>
+    <li><b>@aytobaza</b> — revisado; confirma la Semana de la Dama de Baza (23-26 julio) con el concierto de Rodríguez Celtic Band, ya incluido en la tabla.</li>
+  </ul>
+
+  <h2>🎸 Peñas flamencas y bares con música en directo</h2>
+  <ul class="plain">
+    <li><b>Peñas flamencas de Guadix y Baza</b> — revisadas mediante búsqueda directa; no se ha encontrado programación de actuaciones para esta ventana de fechas. El Circuito Andaluz de Peñas Flamencas 2026 en la provincia de Granada se desarrolla entre septiembre y noviembre, fuera de este periodo.</li>
+    <li><b>Bares y salas pequeñas con música en directo (Guadix, Baza)</b> — revisado (elaccitano.com, conciertosengranada.es, laganzua.net); no se ha localizado ninguna sala de la comarca con conciertos programados en bar/pub para el 16-26 de julio. La actividad musical de la semana se concentra en las fiestas patronales (Benalúa, Sillar Baja) y en los grandes ciclos institucionales (Guadix Clásica, Festival de Granada, Semana de la Dama de Baza).</li>
+  </ul>
+
+  <footer>
+    Fuentes: elaccitano.com/agendaguadixycomarca · guadix.es/events · purullena.es · ayuntamientodebaza.es · todalamusica.es · scherzo.es · granadafestival.org · orquestaciudadgranada.es · conciertosengranada.es · ticketmaster.es · deflamenco.com · Instagram (@ayuntamientodeguadix, @aytobaza)<br>
+    Generado el 16 de julio de 2026 · Ver online: <a href="https://ccorachan.github.io/radar-gorafe" target="_blank">ccorachan.github.io/radar-gorafe</a>
+  </footer>
+
+</div>
+</body>
+</html>
